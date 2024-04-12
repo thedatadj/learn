@@ -1,0 +1,32 @@
+nav
+{
+  display: flex;
+  justify-content: space-around;
+}
+#cs
+{
+  text-justify: center;
+  font-family: 'ArcadeClassic', sans-serif;
+  color: #0ad30e;
+  font-size: 3em;
+  padding: 1em;
+  margin: 0;
+  align-self: center;
+}
+#cs:hover
+{
+  text-shadow: 0em 0em 1em #87A922;
+}
+#math
+{
+  text-justify: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: #5272F2;
+  font-size: 3em;
+  padding: 1em;
+  margin: 0;
+}
+#math:hover
+{
+  text-shadow: 0em 0em 1em #40A2E3;
+}
