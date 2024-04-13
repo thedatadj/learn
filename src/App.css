@@ -3,6 +3,10 @@ nav
   display: flex;
   justify-content: space-around;
 }
+.links
+{
+  text-decoration: none;
+}
 #cs
 {
   text-justify: center;
