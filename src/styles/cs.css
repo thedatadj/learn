@@ -1,15 +1,8 @@
 .cs-screen
 {
     height: 80svh;
-    display: grid;
-    grid-template-columns: 100%;
-}
-
-canvas
-{ 
-    border: 1px solid white;
-    width: 800px;
-    height: 400px;
-    justify-self: center;
-    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
