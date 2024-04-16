@@ -1,7 +1,12 @@
+.app
+{
+  width: 100svw;
+}
 nav
 {
   display: flex;
   justify-content: space-around;
+  font-size: 3em;
 }
 .links
 {
@@ -12,7 +17,6 @@ nav
   text-justify: center;
   font-family: 'ArcadeClassic', sans-serif;
   color: #0ad30e;
-  font-size: 3em;
   padding: 1em;
   margin: 0;
   align-self: center;
@@ -26,11 +30,17 @@ nav
   text-justify: center;
   font-family: 'Times New Roman', Times, serif;
   color: #5272F2;
-  font-size: 3em;
   padding: 1em;
   margin: 0;
 }
 #math:hover
 {
   text-shadow: 0em 0em 1em #40A2E3;
+}
+@media (width <= 480px)
+{
+  nav
+  {
+    font-size: 1em;
+  }
 }
